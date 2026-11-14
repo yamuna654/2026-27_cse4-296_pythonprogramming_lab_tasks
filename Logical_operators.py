@@ -1,0 +1,5 @@
+num1 = float(input("enter first number: "))
+num2 = float(input("enter second number: "))
+print(f"({num1}>19) and ({num2}>17) is {num1>19 and num2>17}")
+print(f"({num1}>19)or ({num2}>17) is {num1>19 or num2>17}")
+print(f"({num1}>19) not ({num2}>17) is {num1>19 and not num2>17}")
